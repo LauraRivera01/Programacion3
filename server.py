@@ -26,4 +26,4 @@ class servidorBasico(SimpleHTTPRequestHandler):
 
 print("Servidor iniciado")
 server = HTTPServer(("localhost", 3000), servidorBasico)
-server.serve_forever()
+server.serve_forever()z
